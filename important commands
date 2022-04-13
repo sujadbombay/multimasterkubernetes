@@ -1,0 +1,3 @@
+kubeadm init --control-plane-endpoint="ip of loadbalancer:6443" --upload-certs --apiserver-advertise-address=masterip -pod-network-cidr=iprange
+
+#get the output and in the end add --api-server-advertise-address masterip
